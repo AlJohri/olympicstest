@@ -1,6 +1,6 @@
 # olympicstest
 
-## Usage
+## Using `writer`
 
 **NOTE**: run separately. java is slow to start so keep it always running
 
@@ -14,3 +14,9 @@
 	```
 	docker-compose build writer && docker-compose run writer
 	```
+
+## Using `writer2`
+
+```
+docker-compose up --build writer2
+```
