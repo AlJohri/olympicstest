@@ -1,0 +1,13 @@
+Vocabulary
+- https://en.wikipedia.org/wiki/Referring_expression
+- https://en.wikipedia.org/wiki/Realization_(linguistics)
+
+FUF (Functional Unification Formalism)
+- http://www.ling.helsinki.fi/kit/2010s/clt310gen/docs/ImplementingFUFinNLTK.pdf
+- https://github.com/melhadad/fuf
+
+SimpleNLG
+- https://github.com/simplenlg/simplenlg/wiki
+
+StanfordNLP Parser
+- http://nlp.stanford.edu:8080/parser/index.jsp
