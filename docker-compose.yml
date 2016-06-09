@@ -1,12 +1,12 @@
 version: '2'
 services:
   nlgserv:
-    build: 
+    build:
       context: .
       dockerfile: ./nlgserv/Dockerfile
     ports: ["8000:8000"] # HOST:CONTAINER
   writer:
-    build: 
+    build:
       context: .
       dockerfile: ./writer/Dockerfile
     env_file: .env
@@ -14,7 +14,12 @@ services:
     links:
       - nlgserv
   writer2:
-    build: 
+    build:
       context: .
       dockerfile: ./writer2/Dockerfile
+    env_file: .env
+  writer3:
+    build:
+      context: .
+      dockerfile: ./writer3/Dockerfile
     env_file: .env

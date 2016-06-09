@@ -13,4 +13,3 @@ puts SimplerNLG::NLG.render{
     ],
     o:"everyone")
 }
-

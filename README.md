@@ -20,3 +20,9 @@
 ```
 docker-compose up --build writer2
 ```
+
+## Using `writer3`
+
+```
+docker-compose up --build writer3
+```
