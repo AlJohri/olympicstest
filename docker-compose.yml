@@ -13,3 +13,8 @@ services:
     ports: ["5000:5000"] # HOST:CONTAINER
     links:
       - nlgserv
+  writer2:
+    build: 
+      context: .
+      dockerfile: ./writer2/Dockerfile
+    env_file: .env

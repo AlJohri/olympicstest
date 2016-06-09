@@ -14,3 +14,15 @@ nlgFactory = NLGFactory(lexicon)
 realiser = Realiser(lexicon)
 
 print("hello world")
+
+p = nlgFactory.createSentence("my dog is happy")
+sentence = realiser.realiseSentence(p)
+print(sentence)
+
+p = nlgFactory.createClause()
+p.setSubject("Mary")
+p.setVerb("chase")
+p.setObject("the monkey")
+
+sentence2 = realiser.realiseSentence(p)
+print(sentence2)

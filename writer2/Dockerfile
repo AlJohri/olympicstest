@@ -1,5 +1,5 @@
 FROM seansummers/jython
 ADD . /code
 WORKDIR /code/writer2
-# CMD ["ls"]
-CMD ["app.py"]
+# uses jython as entrypoint
+CMD ["/code/writer2/app.py"]
