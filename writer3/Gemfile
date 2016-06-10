@@ -1,3 +1,6 @@
-ruby '2.3.0', :engine => 'jruby', :engine_version => '9.1.2.0'
-gem 'simplernlg', :git => 'https://github.com/jeremybmerrill/simplernlg.git'
-
+ruby '2.3.0', engine: 'jruby', engine_version: '9.1.2.0'
+gem 'simplernlg', github: 'AlJohri/simplernlg', :branch => 'noun-phrase-array'
+# gem 'simplernlg', :path => "../../simplernlg"
+gem 'countries'
+# gem 'columnize'
+# gem 'ruby-debug'

@@ -21,7 +21,8 @@ docker-compose up --build writer3
 
 with bundler
 ```
-rbenv install jruby-9.1.2.0
+brew update && brew upgrade rbenv ruby-build
+rbenv install $(cat .ruby-version)
 gem install bundler
 bundle install
 ```

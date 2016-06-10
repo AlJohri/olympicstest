@@ -11,3 +11,7 @@ SimpleNLG
 
 StanfordNLP Parser
 - http://nlp.stanford.edu:8080/parser/index.jsp
+
+Penn Treebank II tag set
+- http://www.clips.ua.ac.be/pages/mbsp-tags
+- http://web.mit.edu/6.863/www/PennTreebankTags.html
